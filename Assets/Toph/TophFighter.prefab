@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 8217749113231967436}
   - component: {fileID: 1654368978947844558}
   - component: {fileID: 2145306948880929117}
-  - component: {fileID: 256532176731728321}
   - component: {fileID: 7147842888946412414}
+  - component: {fileID: 3174217287183693524}
   m_Layer: 0
   m_Name: TophFighter
   m_TagString: Untagged
@@ -114,18 +114,6 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &256532176731728321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 886707710110236252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3858f74d835524a42b6215dc8cedaba8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &7147842888946412414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,6 +128,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 300
   jumpForce: 4
+  playerIndex: 0
+--- !u!61 &3174217287183693524
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886707710110236252}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.10327482, y: 0.07106334}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.7271013, y: 0.13098991}
+  m_EdgeRadius: 0
 --- !u!1 &8232711946779703548
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,7 +213,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8232711946779703548}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
