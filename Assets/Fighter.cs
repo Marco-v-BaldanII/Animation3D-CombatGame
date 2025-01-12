@@ -8,7 +8,10 @@ public class Fighter : MonoBehaviour
     public float jumpForce = 7f;   // Force applied when jumping
     private bool isGrounded;       // Check if player is on the ground
     private Rigidbody2D rb;        // Rigidbody2D component
-    
+
+
+    [SerializeField] int playerIndex;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -48,4 +51,7 @@ public class Fighter : MonoBehaviour
             isGrounded = true;
         }
     }
+
+    public int GetPlayerIndex() { return playerIndex; }
+
 }
