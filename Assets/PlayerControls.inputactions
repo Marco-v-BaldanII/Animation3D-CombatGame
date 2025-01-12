@@ -6,7 +6,7 @@
             "id": "c39ed596-7705-4d83-85d8-2d81c529b39c",
             "actions": [
                 {
-                    "name": "New action",
+                    "name": "s_punch",
                     "type": "Button",
                     "id": "206970a8-25a1-4a56-b0e7-899038ab0b71",
                     "expectedControlType": "Button",
@@ -28,11 +28,11 @@
                 {
                     "name": "",
                     "id": "2d9b2639-2cae-45fc-a88d-a71dbccffd68",
-                    "path": "",
+                    "path": "<Gamepad>/buttonNorth",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "s_punch",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

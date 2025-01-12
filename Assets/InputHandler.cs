@@ -21,20 +21,49 @@ public class InputHandler : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-    public void function()
-    {
-
-    }
-
     public void OnMove(CallbackContext context)
     {
         fighter.Move(context);
+    }
+
+    public void OnJump(CallbackContext context)
+    {
+        if (context.started)
+        {
+            fighter.Jump();
+        }
+    }
+
+    public void SPunch(CallbackContext context)
+    {
+        if (context.started)
+        {
+            fighter.PerformAttack("s_punch");
+        }
+    }
+
+    public void WPunch(CallbackContext context)
+    {
+        if (context.started)
+        {
+            fighter.PerformAttack("w_punch");
+        }
+    }
+
+    public void SKick(CallbackContext context)
+    {
+        if (context.started)
+        {
+            fighter.PerformAttack("s_kick");
+        }
+    }
+
+    public void WKick(CallbackContext context)
+    {
+        if (context.started)
+        {
+            fighter.PerformAttack("w_kick");
+        }
     }
 
 }
