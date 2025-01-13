@@ -109,6 +109,18 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: ce09f6f3-13d9-4a32-89d4-5996b53c28ea
     m_ActionName: Player/Movement[/SwitchProControllerHID/leftStick/x,/SwitchProControllerHID/dpad/x,/Keyboard/d,/Keyboard/a]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: bd38b42c-6aae-496c-92a5-9de18c99d309
+    m_ActionName: Player/w_punch
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 71ebd542-b96e-4718-be22-1c5a8c52b217
+    m_ActionName: Player/s_kick
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5eaae829-a76c-4d7b-b5c0-5f057e5682d4
+    m_ActionName: Player/w_kick
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -259,6 +271,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8217749113231967436}
     m_Modifications:
+    - target: {fileID: 2212353235680251842, guid: 0f6afe3929300d7409eee02a85682458,
+        type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212353235680251842, guid: 0f6afe3929300d7409eee02a85682458,
+        type: 3}
+      propertyPath: m_WarningMessage
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212353235680251842, guid: 0f6afe3929300d7409eee02a85682458,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2823326543088375564, guid: 0f6afe3929300d7409eee02a85682458,
         type: 3}
       propertyPath: m_Name
