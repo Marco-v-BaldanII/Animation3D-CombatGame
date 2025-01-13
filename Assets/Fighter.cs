@@ -32,16 +32,22 @@ public class Fighter : MonoBehaviour
         Vector3 move = new Vector3(inputX, 0, 0) * moveSpeed * Time.deltaTime;
         //transform.Translate(move); // Move the player
         //rb.velocity = new Vector2(-move.x, rb.velocity.y);
-        print(rb.velocity);
-        animator.SetTrigger("inputX");
+        if (move.x < 0)
+        {
+            animator.SetTrigger("inputX");
+        }
+        else if (move.x > 0)
+        {
+            animator.SetTrigger("a");
+        }
     }
 
     public void Jump()
     {
-     
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-            isGrounded = false;
-        
+
+        //rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+        //isGrounded = false;
+        animator.SetTrigger("jump");
     }
 
     public void PerformAttack(string atk_name)

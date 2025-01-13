@@ -26,6 +26,14 @@ public class InputHandler : MonoBehaviour
         fighter.Move(context);
     }
 
+    public void OnDodge(CallbackContext context)
+    {
+        if (context.started)
+        {
+            fighter.PerformAttack("dodge");
+        }
+    }
+
     public void OnJump(CallbackContext context)
     {
         if (context.started)
