@@ -16,14 +16,14 @@ public class Fighter : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponentInChildren<Animator>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
         //Move();
-
+       // animator.SetFloat("input_x", Mathf.Abs( rb.velocity.x ));
     }
 
     public void Move(CallbackContext callbackContext)
@@ -31,8 +31,9 @@ public class Fighter : MonoBehaviour
         float inputX = callbackContext.ReadValue<float>();
         Vector3 move = new Vector3(inputX, 0, 0) * moveSpeed * Time.deltaTime;
         //transform.Translate(move); // Move the player
-        rb.velocity = new Vector2(-move.x, rb.velocity.y);
+        //rb.velocity = new Vector2(-move.x, rb.velocity.y);
         print(rb.velocity);
+        animator.SetTrigger("inputX");
     }
 
     public void Jump()
