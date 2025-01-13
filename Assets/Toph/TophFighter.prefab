@@ -77,6 +77,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8364456285945435117}
   - component: {fileID: 5929895963489669442}
+  - component: {fileID: 3024340469114819683}
   m_Layer: 6
   m_Name: HurtBox (3)
   m_TagString: Untagged
@@ -134,6 +135,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.06568425, y: -0.0243583}
   m_Size: {x: 0.17564327, y: 0.07924972}
   m_Direction: 1
+--- !u!114 &3024340469114819683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180699240411655037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93d2086d29244a46b8ca208dd3feff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageReceiver: {fileID: 0}
 --- !u!1 &345077684012053399
 GameObject:
   m_ObjectHideFlags: 0
@@ -144,6 +158,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5764201662442734544}
   - component: {fileID: 8947966493784156999}
+  - component: {fileID: 9011973903036806419}
   m_Layer: 6
   m_Name: HurtBox (3)
   m_TagString: Untagged
@@ -201,6 +216,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.08694727, y: 0.028552854}
   m_Size: {x: 0.26277748, y: 0.24024718}
   m_Direction: 1
+--- !u!114 &9011973903036806419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345077684012053399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93d2086d29244a46b8ca208dd3feff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageReceiver: {fileID: 0}
 --- !u!1 &975073615055804813
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,7 +239,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7930226122842753147}
   - component: {fileID: 5482695218357753854}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FeetCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -288,6 +316,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2530585131146760977}
   - component: {fileID: 4321953499019687436}
+  - component: {fileID: 2600056983478954907}
   m_Layer: 6
   m_Name: HurtBox (1)
   m_TagString: Untagged
@@ -346,6 +375,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.046210814, y: 0.3167042}
   m_Size: {x: 0.3383674, y: 0.2727597}
   m_Direction: 1
+--- !u!114 &2600056983478954907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232204546418347682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93d2086d29244a46b8ca208dd3feff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageReceiver: {fileID: 0}
 --- !u!1 &1260908679915526424
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,6 +600,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3335530549781305063}
   - component: {fileID: 3778709221705331198}
+  - component: {fileID: 92491381446568984}
   m_Layer: 6
   m_Name: HurtBox (1)
   m_TagString: Untagged
@@ -616,6 +659,19 @@ CapsuleCollider2D:
   m_Offset: {x: -0.10235354, y: 0.031415295}
   m_Size: {x: 0.29431367, y: 0.17109105}
   m_Direction: 1
+--- !u!114 &92491381446568984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684008000836480835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93d2086d29244a46b8ca208dd3feff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageReceiver: {fileID: 0}
 --- !u!1 &2351791714663103828
 GameObject:
   m_ObjectHideFlags: 0
@@ -693,6 +749,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9177609602575748969}
   - component: {fileID: 6519016565838849887}
+  - component: {fileID: 4090463277074619649}
   m_Layer: 6
   m_Name: HurtBox (3)
   m_TagString: Untagged
@@ -750,6 +807,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.13886373, y: -0.33223537}
   m_Size: {x: 0.13629065, y: 0.20497216}
   m_Direction: 1
+--- !u!114 &4090463277074619649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2378020440390201503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93d2086d29244a46b8ca208dd3feff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageReceiver: {fileID: 0}
 --- !u!1 &2402502721269008781
 GameObject:
   m_ObjectHideFlags: 0
@@ -827,6 +897,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2930737807300580419}
   - component: {fileID: 654613115483759289}
+  - component: {fileID: 2292409126682003919}
   m_Layer: 6
   m_Name: HurtBox (4)
   m_TagString: Untagged
@@ -884,6 +955,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.22669388, y: 0.14153984}
   m_Size: {x: 0.26877418, y: 0.29146022}
   m_Direction: 1
+--- !u!114 &2292409126682003919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3483118983673875847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93d2086d29244a46b8ca208dd3feff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageReceiver: {fileID: 0}
 --- !u!1 &3515078104854671054
 GameObject:
   m_ObjectHideFlags: 0
@@ -1028,6 +1112,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7803789823252244385}
   - component: {fileID: 6387290817287854479}
+  - component: {fileID: 1849172745739832016}
   m_Layer: 6
   m_Name: HurtBox (3)
   m_TagString: Untagged
@@ -1085,6 +1170,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0051952754, y: 0.11169225}
   m_Size: {x: 0.04949569, y: 0.33400574}
   m_Direction: 0
+--- !u!114 &1849172745739832016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4696337196439133893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93d2086d29244a46b8ca208dd3feff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageReceiver: {fileID: 0}
 --- !u!1 &4863353828819890678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1095,6 +1193,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9112229346808396677}
   - component: {fileID: 4899499994398919425}
+  - component: {fileID: 3183249720792567660}
   m_Layer: 6
   m_Name: HurtBox (3)
   m_TagString: Untagged
@@ -1152,6 +1251,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.09607231, y: 0.035397112}
   m_Size: {x: 0.21846001, y: 0.06092446}
   m_Direction: 1
+--- !u!114 &3183249720792567660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4863353828819890678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93d2086d29244a46b8ca208dd3feff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageReceiver: {fileID: 0}
 --- !u!1 &5670251244548938399
 GameObject:
   m_ObjectHideFlags: 0
@@ -1162,6 +1274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 198331588575103491}
   - component: {fileID: 2630660296814565175}
+  - component: {fileID: 1641032750015159904}
   m_Layer: 6
   m_Name: HurtBox (3)
   m_TagString: Untagged
@@ -1219,6 +1332,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.046859227, y: -0.048761345}
   m_Size: {x: 0.24504195, y: 0.17250624}
   m_Direction: 1
+--- !u!114 &1641032750015159904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5670251244548938399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93d2086d29244a46b8ca208dd3feff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageReceiver: {fileID: 0}
 --- !u!1 &5882336677468246296
 GameObject:
   m_ObjectHideFlags: 0
@@ -1229,6 +1355,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3394706115989393163}
   - component: {fileID: 4869920752995369380}
+  - component: {fileID: 8529145354198063026}
   m_Layer: 6
   m_Name: HurtBox
   m_TagString: Untagged
@@ -1286,6 +1413,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.17469318, y: -0.032115314}
   m_Size: {x: 0.32072967, y: 0.52080894}
   m_Direction: 1
+--- !u!114 &8529145354198063026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5882336677468246296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93d2086d29244a46b8ca208dd3feff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageReceiver: {fileID: 0}
 --- !u!1 &6125822587682866423
 GameObject:
   m_ObjectHideFlags: 0
@@ -1296,6 +1436,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6147437554034236124}
   - component: {fileID: 5192126053652793257}
+  - component: {fileID: 6775528852531878205}
   m_Layer: 6
   m_Name: HurtBox (2)
   m_TagString: Untagged
@@ -1353,6 +1494,19 @@ CapsuleCollider2D:
   m_Offset: {x: -0.008787415, y: 0.019478107}
   m_Size: {x: 0.10756277, y: 0.14723231}
   m_Direction: 1
+--- !u!114 &6775528852531878205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6125822587682866423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93d2086d29244a46b8ca208dd3feff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageReceiver: {fileID: 0}
 --- !u!1 &6320147075828924932
 GameObject:
   m_ObjectHideFlags: 0
@@ -1565,6 +1719,7 @@ GameObject:
   m_Component:
   - component: {fileID: 952702112897978281}
   - component: {fileID: 9018184529325323551}
+  - component: {fileID: 3068946984861103508}
   m_Layer: 6
   m_Name: HurtBox (3)
   m_TagString: Untagged
@@ -1622,6 +1777,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.013679774, y: -0.0101915235}
   m_Size: {x: 0.16243315, y: 0.09267668}
   m_Direction: 1
+--- !u!114 &3068946984861103508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7324554038492942678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93d2086d29244a46b8ca208dd3feff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageReceiver: {fileID: 0}
 --- !u!1 &7516664563963592088
 GameObject:
   m_ObjectHideFlags: 0
@@ -1900,6 +2068,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1989148636190013216}
   - component: {fileID: 3356569566371811257}
+  - component: {fileID: 7822060259378366195}
   m_Layer: 6
   m_Name: HurtBox (3)
   m_TagString: Untagged
@@ -1957,6 +2126,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0074463855, y: -0.007632313}
   m_Size: {x: 0.16243283, y: 0.23268184}
   m_Direction: 0
+--- !u!114 &7822060259378366195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8688549515397197816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93d2086d29244a46b8ca208dd3feff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageReceiver: {fileID: 0}
 --- !u!1 &8700684544371167735
 GameObject:
   m_ObjectHideFlags: 0
@@ -1967,6 +2149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1662985920891718849}
   - component: {fileID: 6437351832734750102}
+  - component: {fileID: 1426723871162966609}
   m_Layer: 6
   m_Name: HurtBox (2)
   m_TagString: Untagged
@@ -2024,6 +2207,19 @@ CapsuleCollider2D:
   m_Offset: {x: -0.008787415, y: 0.019478107}
   m_Size: {x: 0.10756277, y: 0.14723231}
   m_Direction: 1
+--- !u!114 &1426723871162966609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8700684544371167735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93d2086d29244a46b8ca208dd3feff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageReceiver: {fileID: 0}
 --- !u!1 &8805776841158723149
 GameObject:
   m_ObjectHideFlags: 0
@@ -2034,6 +2230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2728167598240991095}
   - component: {fileID: 7230533560593849040}
+  - component: {fileID: 4400394284059753127}
   m_Layer: 6
   m_Name: HurtBox
   m_TagString: Untagged
@@ -2091,6 +2288,19 @@ CapsuleCollider2D:
   m_Offset: {x: -0.10097717, y: -0.054718275}
   m_Size: {x: 0.29431367, y: 0.24399982}
   m_Direction: 1
+--- !u!114 &4400394284059753127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8805776841158723149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93d2086d29244a46b8ca208dd3feff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageReceiver: {fileID: 0}
 --- !u!1001 &2696012504147951312
 PrefabInstance:
   m_ObjectHideFlags: 0
