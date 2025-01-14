@@ -23,11 +23,27 @@ public class InputHandler : MonoBehaviour
 
     public void OnMove(CallbackContext context)
     {
-        fighter.Move(context);
+        if( context.started) return;
+        print("On moveee");
+        fighter.Move(context.ReadValue<Vector2>());
+        StartCoroutine(stopPressing( context));
+    }
+
+    private IEnumerator stopPressing(CallbackContext context)
+    {
+        yield return null;
+        while (context.performed || context.started)
+        {
+            print("pressed");
+            fighter.Move(context.ReadValue<Vector2>());
+            yield return null;
+        }
+        fighter.Move(context.ReadValue<Vector2>());
     }
 
     public void OnDodge(CallbackContext context)
     {
+        print("move performeddddd");
         if (context.started)
         {
             fighter.PerformAttack("dodge");
