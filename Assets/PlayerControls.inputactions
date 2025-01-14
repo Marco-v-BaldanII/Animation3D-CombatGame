@@ -83,6 +83,17 @@
                 },
                 {
                     "name": "",
+                    "id": "020676d8-e665-431b-af79-02821e7e63f8",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "s_punch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "65e39003-970f-4a77-aebc-37390327a3b0",
                     "path": "<Gamepad>/leftStick/x",
                     "interactions": "",
@@ -149,6 +160,17 @@
                 },
                 {
                     "name": "",
+                    "id": "e09dac7c-802e-446d-be38-1f2c8d727810",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "w_punch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "64b52456-e311-4ac0-8fca-c556f597cef7",
                     "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
@@ -160,8 +182,30 @@
                 },
                 {
                     "name": "",
+                    "id": "5d7b62af-ec6f-4c0e-b3cd-cf19803ec09e",
+                    "path": "<Keyboard>/o",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "s_kick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "6089bc3d-da3b-402d-a806-30a734e83629",
                     "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "w_kick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e64967c2-12cb-4410-9139-585c45b59e92",
+                    "path": "<Keyboard>/l",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

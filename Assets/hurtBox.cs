@@ -13,7 +13,10 @@ public class hurtBox : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        damageReceiver.OnTriggerEnter2D(collision);
+        var s = collision.GetComponentInParent<DamageReceiver>();
+        if (s == null || damageReceiver == null || s == damageReceiver  || collision.enabled == false) { return; }
+
+        damageReceiver?.OnTriggerEnter2D(collision);
     }
 
 }
