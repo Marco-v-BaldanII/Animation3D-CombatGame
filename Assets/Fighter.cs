@@ -12,11 +12,14 @@ public class Fighter : MonoBehaviour
 
     [SerializeField] int playerIndex;
 
+    private VoiceLines voiceLines;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        voiceLines = GetComponent<VoiceLines>();
     }
 
     // Update is called once per frame
@@ -29,7 +32,11 @@ public class Fighter : MonoBehaviour
     public void Move(Vector2 input)
     {
         float inputX = input.x;
+
+       
+
         Vector3 move = new Vector3(inputX, 0, 0) * moveSpeed * Time.deltaTime;
+        if (playerIndex == 0) { move.x *= -1; }
         //transform.Translate(move); // Move the player
         //rb.velocity = new Vector2(-move.x, rb.velocity.y);
         //if (move.x < 0)
@@ -39,7 +46,7 @@ public class Fighter : MonoBehaviour
         //else if (move.x > 0)
         //{
         //    //animator.SetTrigger("a");
-            
+
         //}
         animator.SetFloat("input_x", move.x);
     }
@@ -56,9 +63,10 @@ public class Fighter : MonoBehaviour
     {
 
         AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-        if (stateInfo.IsName("Idle"))
+        if (stateInfo.IsName("Idle") || stateInfo.IsName("walk") || stateInfo.IsName("walk_0"))
         {
             animator.SetTrigger(atk_name);
+            voiceLines?.PlayRandomClip();
         }
     }
 
