@@ -68,7 +68,7 @@ public class Fighter : MonoBehaviour
     {
 
         AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-        if (stateInfo.IsName("Idle") || stateInfo.IsName("walk") || stateInfo.IsName("walk_0"))
+        if (stateInfo.IsName("Idle") || stateInfo.IsName("walk") || stateInfo.IsName("walk_0")|| stateInfo.IsName("Walk_Forward") || stateInfo.IsName("Walk_Backward"))
         {
             print("Fighter is performing " + atk_name);
 
@@ -102,6 +102,11 @@ public class Fighter : MonoBehaviour
 
             }
         }
+    }
+
+    public void Win()
+    {
+        animator.SetTrigger("victory");
     }
 
 

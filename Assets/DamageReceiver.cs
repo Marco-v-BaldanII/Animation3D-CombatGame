@@ -9,6 +9,7 @@ public class DamageReceiver : MonoBehaviour
     public bool alive = true;
     private Animator animator;
     Fighter myFighter;
+    public Fighter opponent;
     private void Awake()
     {
         myFighter = GetComponent<Fighter>();
@@ -27,5 +28,6 @@ public class DamageReceiver : MonoBehaviour
 
         alive = false;
         animator.SetTrigger("defeat");
+        opponent.Win();
     }
 }
