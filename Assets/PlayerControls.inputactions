@@ -106,7 +106,7 @@
                 {
                     "name": "",
                     "id": "e09dac7c-802e-446d-be38-1f2c8d727810",
-                    "path": "<Keyboard>/j",
+                    "path": "<Keyboard>/k",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -182,6 +182,17 @@
                 },
                 {
                     "name": "",
+                    "id": "fe9a249f-2285-4352-8c24-e4d035539ac8",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "dodge",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "52f85787-1b55-456c-a9e8-f4057516b5b3",
                     "path": "<Gamepad>/leftStick/up",
                     "interactions": "",
@@ -194,7 +205,7 @@
                 {
                     "name": "",
                     "id": "6ea4268c-8031-42d2-b3f5-e688a52709a8",
-                    "path": "<Gamepad>/dpad/up",
+                    "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
