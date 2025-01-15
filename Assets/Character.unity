@@ -997,6 +997,11 @@ PrefabInstance:
       propertyPath: spreadCustomCurve.m_Curve.Array.data[0].value
       value: 0.98055553
       objectReference: {fileID: 0}
+    - target: {fileID: 6484842053851886268, guid: 7076a91fe7491af4aa9595dafc5a8548,
+        type: 3}
+      propertyPath: opponent
+      value: 
+      objectReference: {fileID: 8466182576770270805}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1198,6 +1203,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1501930169 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 501925270436979679, guid: 7076a91fe7491af4aa9595dafc5a8548,
+    type: 3}
+  m_PrefabInstance: {fileID: 1098004246}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c11d9519df5f824c9daeef9656b8e0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1704915314
 GameObject:
   m_ObjectHideFlags: 0
@@ -1448,6 +1465,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 136225698901156219, guid: 563667f1c3220514faf285b2b375c067,
+        type: 3}
+      propertyPath: opponent
+      value: 
+      objectReference: {fileID: 1501930169}
     - target: {fileID: 1383763521196859289, guid: 563667f1c3220514faf285b2b375c067,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1508,6 +1530,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 563667f1c3220514faf285b2b375c067, type: 3}
+--- !u!114 &8466182576770270805 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1375870155122054097, guid: 563667f1c3220514faf285b2b375c067,
+    type: 3}
+  m_PrefabInstance: {fileID: 7641453619729718292}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c11d9519df5f824c9daeef9656b8e0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
